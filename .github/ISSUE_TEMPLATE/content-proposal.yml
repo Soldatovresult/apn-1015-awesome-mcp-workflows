@@ -1,0 +1,113 @@
+name: Content proposal
+description: Suggest a server pattern, workflow pattern, or recipe for the catalog.
+title: "[Content]: "
+body:
+  - type: dropdown
+    id: entry_type
+    attributes:
+      label: Entry type
+      description: Pick the catalog section this belongs in.
+      options:
+        - Server pattern
+        - Workflow pattern
+        - Recipe
+    validations:
+      required: true
+
+  - type: input
+    id: proposed_title
+    attributes:
+      label: Proposed title
+      placeholder: Local docs review workflow
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the user, trigger, and output.
+      placeholder: A concise overview of the proposed entry.
+    validations:
+      required: true
+
+  - type: input
+    id: primary_user
+    attributes:
+      label: Primary user
+      placeholder: Product manager, operations lead, internal support team
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem solved
+      placeholder: What job does this help complete?
+    validations:
+      required: true
+
+  - type: textarea
+    id: inputs_outputs
+    attributes:
+      label: Inputs and outputs
+      description: Keep it compact and concrete.
+      placeholder: |
+        Inputs:
+        Outputs:
+    validations:
+      required: true
+
+  - type: textarea
+    id: stack
+    attributes:
+      label: Server mix or capability mix
+      placeholder: Which MCP servers, tools, or capabilities are involved?
+    validations:
+      required: true
+
+  - type: textarea
+    id: trust_boundary
+    attributes:
+      label: Trust boundary
+      description: Mention local files, shell access, secrets, browsers, internal docs, destructive actions, or human approvals if they matter.
+      placeholder: Where does this workflow need caution or explicit review?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: evidence_level
+    attributes:
+      label: Evidence level
+      options:
+        - Pattern seed
+        - Documented example
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence_note
+    attributes:
+      label: Evidence note
+      description: If you have a public source or implementation note, link it and say what it proves.
+      placeholder: Explain what is documented versus inferred.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_it_matters
+    attributes:
+      label: Why it matters
+      placeholder: Why should a builder or maintainer care about this entry?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I am not making unsupported claims about adoption, maintenance, or performance.
+          required: true
+        - label: I described the trust boundary or the human review point.
+          required: true
