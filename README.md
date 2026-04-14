@@ -2,7 +2,27 @@
 
 # awesome-mcp-workflows
 
-A bilingual, pattern-first repository for MCP workflow ideas, server shapes, and publishable combinations.
+Find MCP workflow ideas and server patterns that hold up under product scrutiny, not just demo energy.
+
+`awesome-mcp-workflows` is a bilingual, pattern-first repository for builders who need launchable ideas, credible workflow shapes, and honest editorial labels instead of fake leaderboards.
+
+## Quick Proof
+
+- Three browsable catalogs: [servers](./lists/servers.md), [workflows](./lists/workflows.md), and [recipes](./lists/recipes.md).
+- An explicit [evaluation rubric](./docs/evaluation-rubric.md), [taxonomy](./docs/taxonomy.md), and [submission template](./docs/submission-template.md) so the list stays consistent.
+- Bilingual coverage from day one, so entries are useful in both English and Chinese-speaking workflows.
+- Clear evidence labels like `Pattern seed` and `Documented example` to separate what is documented from what is inferred.
+
+## Start Here
+
+- Want reusable MCP server shapes? Start with [lists/servers.md](./lists/servers.md).
+- Want practical workflow ideas? Start with [lists/workflows.md](./lists/workflows.md).
+- Want combinations closer to a shippable product? Start with [lists/recipes.md](./lists/recipes.md).
+- Want to contribute without lowering the bar? Read [docs/evaluation-rubric.md](./docs/evaluation-rubric.md) and [docs/submission-template.md](./docs/submission-template.md).
+
+If you want a practical MCP idea catalog that filters for usefulness over hype, star the repo and use it as your working shortlist.
+
+## Editorial Position
 
 This repo is intentionally honest about what it is:
 

@@ -2,7 +2,27 @@
 
 # awesome-mcp-workflows
 
-一个中英双语、以“模式”优先的 MCP 内容仓库，用来整理可复用的工作流、服务形态和可发布的组合方向。
+这里收的是经得起产品化推敲的 MCP 工作流和 server 模式，不是只适合 demo 的灵感碎片。
+
+`awesome-mcp-workflows` 是一个中英双语、以“模式”优先的仓库，面向那些需要可发布方向、可信 workflow 形态和明确编辑标准的构建者，而不是只想看热闹榜单的人。
+
+## 快速看点
+
+- 有三条可直接浏览的主线：[servers](./lists/servers.md)、[workflows](./lists/workflows.md)、[recipes](./lists/recipes.md)。
+- 有明确的 [evaluation rubric](./docs/evaluation-rubric.md)、[taxonomy](./docs/taxonomy.md) 和 [submission template](./docs/submission-template.md)，保证条目不是越堆越乱。
+- 从第一天起就是中英双语，适合双语团队或面向国际协作的内容整理。
+- 用 `Pattern seed`、`Documented example` 这样的标签明确区分“已有证据”和“模式推断”。
+
+## 从这里开始
+
+- 想找可复用的 MCP server 形态：先看 [lists/servers.md](./lists/servers.md)。
+- 想找务实的工作流：先看 [lists/workflows.md](./lists/workflows.md)。
+- 想看更接近可发布产品的组合：先看 [lists/recipes.md](./lists/recipes.md)。
+- 想参与贡献但不想把标准做低：先读 [docs/evaluation-rubric.md](./docs/evaluation-rubric.md) 和 [docs/submission-template.md](./docs/submission-template.md)。
+
+如果你想要的是一个“按实用价值过滤”的 MCP 方向目录，而不是炒作清单，欢迎 Star 后把它当作工作中的候选池。
+
+## 编辑立场
 
 这个仓库刻意保持诚实：
 
